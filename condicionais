@@ -1,0 +1,16 @@
+#desafio01
+vel=float(input("Qual a velocidade que o carro está?"))
+if vel>80:
+    print(" seu carro foi multado, cuja a taxa é de R$5.00")
+else:
+    print(" Parabéns você esta na velocidade permitida")
+#desafio02
+sal=float(input("Qua o valor do seu salário?"))
+if sal>1250:
+    calc= (sal*10/100)
+    total=calc+sal;
+    print(f"O salário com aumento é de: {total}")
+else:
+    calc2= (sal*15/100)
+    total2= calc2+sal;
+    print(f"O salário com aumento pe de: {total2}")
